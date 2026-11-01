@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Join | कौतूहल Kautūhala Coding Guild</title>
+<meta name="description" content="Apply to join the Kautūhala guild expedition.">
+<meta name="author" content="Kautūhala Coding Guild">
+<meta name="robots" content="index, follow">
+<meta property="og:site_name" content="Kautūhala Coding Guild">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Join | Kautūhala Coding Guild">
+<meta property="og:description" content="Apply to join the Kautūhala guild expedition.">
+<meta property="og:url" content="https://kautuhal.org/join.html">
+<meta property="og:image" content="https://kautuhal.org/images/kautuhal-banner.png">
+<meta property="og:image:alt" content="Kautūhala symbol: 探究心 (Tankyūshin) The spirit of inquiry">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Join | Kautūhala Coding Guild">
+<meta name="twitter:description" content="Apply to join the Kautūhala guild expedition.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='52' font-size='85' text-anchor='middle' dominant-baseline='central' fill='%2300bcd4'%3E%E0%A4%95%3C/text%3E%3C/svg%3E">
+</head>
+<body id="top-of-page">
+    <header>
+      <svg
+        width="96"
+        height="32"
+        viewBox="0 0 96 32"
+        role="img"
+        aria-labelledby="logo-title"
+      >
+        <title id="logo-title">探究心</title>
+        <text
+          x="48"
+          y="17"
+          font-size="30"
+          text-anchor="middle"
+          dominant-baseline="central"
+          fill="#00bcd4"
+          font-family="'Noto Sans CJK JP','Noto Sans JP','Hiragino Sans','Yu Gothic','Microsoft YaHei',sans-serif"
+          lang="ja"
+        >
+          探究心
+        </text>
+      </svg>
+      <p><strong lang="hi">कौतूहल</strong> — Kautūhala Coding Guild</p>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">🏠 Home</a></li>
+          <li><a href="guild.html">🧭 Guild</a></li>
+          <li><a href="members.html">👥 Members</a></li>
+          <li><a href="quests.html">📜 Quests</a></li>
+          <li><a href="join.html">🌱 Join</a></li>
+          <li><a href="contact.html">📡 Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <h1>
+        <span class="h1-emoji">🌱</span
+        ><span class="h1-text">Join the Expedition</span>
+      </h1>
+      <p>
+        Bring curiosity, not a perfect résumé. We're in the 🌱
+        <a href="guild.html#culture">seed phase</a> (20 members), so applying
+        doesn't guarantee a place.
+      </p>
+      <p>
+        Any student of the college may apply. There's no entrance exam and no
+        fee, and everyone starts at F rank.
+      </p>
+      <form
+        action="mailto:yashasvi.coder@outlook.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <fieldset>
+          <legend>👤 About You</legend>
+          <div
+            class="photo-field"
+            id="photo-field"
+            role="group"
+            aria-labelledby="photo-title"
+            aria-describedby="photo-hint"
+          >
+            <span class="photo-title" id="photo-title">📸 Profile photo</span>
+            <p class="photo-hint" id="photo-hint">
+              Upload a professional, front-facing photo with your face clearly
+              visible and identifiable (no sunglasses, masks, group shots or
+              heavy filters). JPG or PNG, up to 3 MB, at least 250 × 250 px.
+            </p>
+            <input
+              type="file"
+              id="photo"
+              name="photo"
+              accept="image/jpeg,image/png"
+              required
+              aria-required="true"
+            />
+          </div>
+          <p>
+            <label for="name">Full name</label><br /><input
+              type="text"
+              id="name"
+              name="name"
+              required
+              autocomplete="name"
+            />
+          </p>
+          <p>
+            <label for="email">✉️ Email</label><br /><input
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+          </p>
+          <p>
+            <label for="mobile">📱 Mobile</label><br /><input
+              type="tel"
+              id="mobile"
+              name="mobile"
+              pattern="[0-9]{10}"
+              title="10-digit mobile number"
+              required
+            />
+          </p>
+          <p>
+            <label for="district">District</label><br /><input
+              type="text"
+              id="district"
+              name="district"
+              required
+            />
+          </p>
+          <p>
+            <label for="city">City</label><br /><input
+              type="text"
+              id="city"
+              name="city"
+              required
+            />
+          </p>
+          <p>
+            <label for="dob">🎂 Date of birth</label><br /><input
+              type="date"
+              id="dob"
+              name="dob"
+              required
+            />
+          </p>
+          <fieldset>
+            <legend>Gender</legend>
+            <input
+              type="radio"
+              id="g-f"
+              name="gender"
+              value="female"
+              required
+            /><label for="g-f">Female</label>
+            <input type="radio" id="g-m" name="gender" value="male" /><label
+              for="g-m"
+              >Male</label
+            >
+            <input type="radio" id="g-o" name="gender" value="other" /><label
+              for="g-o"
+              >Other</label
+            >
+          </fieldset>
+          <p>
+            <label for="roll">🎓 Roll number</label><br /><input
+              type="text"
+              id="roll"
+              name="roll"
+              required
+            />
+          </p>
+          <p>
+            <label for="password">🔑 Password</label><br /><input
+              type="password"
+              id="password"
+              name="password"
+              minlength="8"
+              required
+            />
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>🔗 Your Trail</legend>
+          <p>
+            <label for="github">🐙 GitHub profile</label><br /><input
+              type="url"
+              id="github"
+              name="github"
+              placeholder="https://github.com/you"
+              required
+            />
+          </p>
+          <p>
+            <label for="linkedin">💼 LinkedIn profile</label><br /><input
+              type="url"
+              id="linkedin"
+              name="linkedin"
+              placeholder="https://www.linkedin.com/in/you"
+              required
+            />
+          </p>
+          <p>
+            <label for="website">🌐 Website (optional)</label><br /><input
+              type="url"
+              id="website"
+              name="website"
+            />
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>🧭 Your Mission</legend>
+          <p>
+            <label for="mission"
+              >What is your mission behind joining Kautūhala?</label
+            >
+          </p>
+          <textarea
+            id="mission"
+            name="mission"
+            rows="6"
+            cols="60"
+            minlength="30"
+            maxlength="1500"
+            required
+          ></textarea>
+          <p>
+            <label for="mbti">🧩 MBTI (optional)</label><br />
+            <select id="mbti" name="mbti">
+              <option value="">Not sure / skip</option>
+              <option>INTJ</option>
+              <option>INTP</option>
+              <option>ENTJ</option>
+              <option>ENTP</option>
+              <option>INFJ</option>
+              <option>INFP</option>
+              <option>ENFJ</option>
+              <option>ENFP</option>
+              <option>ISTJ</option>
+              <option>ISFJ</option>
+              <option>ESTJ</option>
+              <option>ESFJ</option>
+              <option>ISTP</option>
+              <option>ISFP</option>
+              <option>ESTP</option>
+              <option>ESFP</option>
+            </select>
+          </p>
+          <p>
+            <label for="enneagram">🔢 Enneagram (optional)</label><br />
+            <select id="enneagram" name="enneagram">
+              <option value="">Not sure / skip</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+            </select>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>💻 Skills &amp; Territories</legend>
+          <p><label for="skills">Current skills</label></p>
+          <textarea
+            id="skills"
+            name="skills"
+            rows="4"
+            cols="60"
+            required
+          ></textarea>
+          <fieldset>
+            <legend>Which areas of Computer Science are you exploring?</legend>
+            <ul>
+              <li>
+                <input
+                  type="checkbox"
+                  id="s-AI"
+                  name="areas"
+                  value="Artificial Intelligence & Machine Learning"
+                /><label for="s-AI"
+                  >Artificial Intelligence & Machine Learning</label
+                >
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="s-blockchain"
+                  name="areas"
+                  value="Blockchain & Decentralized Systems"
+                /><label for="s-blockchain"
+                  >Blockchain & Decentralized Systems</label
+                >
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="s-web"
+                  name="areas"
+                  value="Web Engineering"
+                /><label for="s-web">Web Engineering</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="s-app"
+                  name="areas"
+                  value="Application Development"
+                /><label for="s-app">Application Development</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="s-game"
+                  name="areas"
+                  value="Game Development & Interactive Systems"
+                /><label for="s-game"
+                  >Game Development & Interactive Systems</label
+                >
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="s-iot"
+                  name="areas"
+                  value="Embedded Systems, IoT & Robotics"
+                /><label for="s-iot">Embedded Systems, IoT & Robotics</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="s-system"
+                  name="areas"
+                  value="Systems Programming & Infrastructure Software"
+                /><label for="s-system"
+                  >Systems Programming & Infrastructure Software</label
+                >
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="s-cloud"
+                  name="areas"
+                  value="Cloud Computing & Platform Engineering"
+                /><label for="s-cloud"
+                  >Cloud Computing & Platform Engineering</label
+                >
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="s-cybersecurity"
+                  name="areas"
+                  value="Cybersecurity Engineering"
+                /><label for="s-cybersecurity">Cybersecurity Engineering</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="s-XR"
+                  name="areas"
+                  value="Extended Reality & Spatial Computing"
+                /><label for="s-XR">Extended Reality & Spatial Computing</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="s-DS"
+                  name="areas"
+                  value="Data Engineering & Analytics"
+                /><label for="s-DS">Data Engineering & Analytics</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="s-MnC"
+                  name="areas"
+                  value="Scientific Computing & Algorithm Engineering"
+                /><label for="s-MnC"
+                  >Scientific Computing & Algorithm Engineering</label
+                >
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="s-dev"
+                  name="areas"
+                  value="Backend Engineering, Developer Tooling & Automation"
+                /><label for="s-dev"
+                  >Backend Engineering, Developer Tooling & Automation</label
+                >
+              </li>
+            </ul>
+          </fieldset>
+        </fieldset>
+
+        <fieldset>
+          <legend>🖥️ System Specification</legend>
+          <p>
+            <label for="cpu">CPU</label><br /><input
+              type="text"
+              id="cpu"
+              name="cpu"
+              required
+            />
+          </p>
+          <p>
+            <label for="ram">RAM</label><br /><select
+              id="ram"
+              name="ram"
+              required
+            >
+              <option value="">Choose…</option>
+              <option>4 GB or less</option>
+              <option>8 GB</option>
+              <option>16 GB</option>
+              <option>32 GB</option>
+              <option>More than 32 GB</option>
+            </select>
+          </p>
+          <p>
+            <label for="gpu">GPU</label><br /><input
+              type="text"
+              id="gpu"
+              name="gpu"
+              placeholder="Integrated is fine"
+            />
+          </p>
+          <p>
+            <label for="storage">Storage</label><br /><input
+              type="text"
+              id="storage"
+              name="storage"
+              placeholder="e.g. 512 GB SSD"
+              required
+            />
+          </p>
+          <p>
+            <label for="os">Operating system</label><br /><select
+              id="os"
+              name="os"
+              required
+            >
+              <option value="">Choose…</option>
+              <option>Windows</option>
+              <option>macOS</option>
+              <option>Linux</option>
+              <option>Other</option>
+            </select>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>🚀 Future Vision</legend>
+          <p>What are you most interested in pursuing?</p>
+          <input
+            type="radio"
+            id="v-s"
+            name="direction"
+            value="startup"
+            required
+          /><label for="v-s">Startup / Business</label><br />
+          <input type="radio" id="v-j" name="direction" value="job" /><label
+            for="v-j"
+            >Job</label
+          ><br />
+          <input
+            type="radio"
+            id="v-r"
+            name="direction"
+            value="research"
+          /><label for="v-r">Research</label><br />
+          <input
+            type="radio"
+            id="v-f"
+            name="direction"
+            value="freelancing"
+          /><label for="v-f">Freelancing / Open Source</label><br />
+          <input
+            type="radio"
+            id="v-u"
+            name="direction"
+            value="undecided"
+          /><label for="v-u">Still figuring it out</label>
+          <p>
+            <label for="vision">Your future vision in life and career</label>
+          </p>
+          <textarea
+            id="vision"
+            name="vision"
+            rows="4"
+            cols="60"
+            required
+          ></textarea>
+        </fieldset>
+
+        <fieldset>
+          <legend>🤝 Collaboration &amp; Working Style</legend>
+          <p>
+            <label for="hours">⏱️ Hours per week you can give</label
+            ><br /><input
+              type="number"
+              id="hours"
+              name="hours"
+              min="1"
+              max="80"
+              required
+            />
+          </p>
+          <p>
+            <label for="style">Preferred working style</label><br />
+            <select id="style" name="style" required>
+              <option value="">Choose…</option>
+              <option>Solo, then share</option>
+              <option>Pair working</option>
+              <option>Small squad</option>
+              <option>Whole-guild effort</option>
+            </select>
+          </p>
+          <p>
+            <label for="feedback"
+              >How do you handle disagreement or critique of your code?</label
+            >
+          </p>
+          <textarea
+            id="feedback"
+            name="feedback"
+            rows="3"
+            cols="60"
+            required
+          ></textarea>
+          <p>
+            <label for="learn"
+              >🎓 Want to learn something from existing members? What?</label
+            >
+          </p>
+          <textarea id="learn" name="learn" rows="3" cols="60"></textarea>
+          <fieldset>
+            <legend>🔍 Looking for members for your own project?</legend>
+            <input
+              type="radio"
+              id="p-y"
+              name="seeking"
+              value="yes"
+              required
+            /><label for="p-y">Yes</label>
+            <input type="radio" id="p-n" name="seeking" value="no" /><label
+              for="p-n"
+              >No</label
+            >
+          </fieldset>
+          <p><label for="project">If yes, describe it</label></p>
+          <textarea id="project" name="project" rows="3" cols="60"></textarea>
+          <p>
+            <label for="hobbies"
+              >♟️ Hobbies to connect over (chess, football…)</label
+            ><br /><input type="text" id="hobbies" name="hobbies" size="50" />
+          </p>
+        </fieldset>
+
+        <p>
+          <button type="submit">🚀 Begin the expedition</button>
+          <button type="reset">🧹 Clear the map</button>
+        </p>
+      </form>
+      <p>
+        <small
+          >⚠️ This opens your email app to send the application; nothing is
+          stored on a server. Don't reuse a real password.</small
+        >
+      </p>
+    </main>
+    <hr />
+    <footer>
+      <p><em>Curiosité · 探究心 · कौतूहल</em></p>
+      <p>
+        🤔 Wonder → 🔎 Explore → 🔨 Build → 🧠 Understand → 🌟 Become → 🤔
+        Wonder
+      </p>
+      <p>
+        <a href="#top-of-page">⬆️ Back to top</a> ·
+        <a href="contact.html">📡 Contact the guild</a>
+      </p>
+    </footer>
+  </body>
+</html>
