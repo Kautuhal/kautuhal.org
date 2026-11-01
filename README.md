@@ -208,7 +208,7 @@ Every expedition needs people who keep it moving.
           └───────────────┼───────────────┘
                           │
                     🛡️ GIT STAFF
-                  IRSHAD  ·  SURBHI
+                 ISHAQUE  ·  SURBHI
                           │
                       👥 MEMBERS
                           │
@@ -241,7 +241,7 @@ Keep the guild's technical memory: repositories, version control, contribution w
 
 They confirm that quests are actually complete.
 
-**First: Surbhi and Irshad.**
+**First: Surbhi and Ishaque.**
 
 Eventually: two per year of study.
 
@@ -628,9 +628,9 @@ Master Architect  →  Yashasvi
 
 Debug Officers    →  Bittu · Ragni · Suryansh
 
-Git Staff         →  Irshad · Surbhi
+Git Staff         →  Ishaque · Surbhi
 
-Founding Members  →  Amit · Sahil · Shahan · Priya · Sumit · Pandit · Samyak · Rahul · Shivshankar
+Founding Members  →  Amit · Sahil · Shahan · Priya · Sumit · Ujjwal · Samyak · Rahul · Shivshankar
 ```
 
 Every guild has an origin. This is ours, inscribed once, **permanently.** 🏛️
